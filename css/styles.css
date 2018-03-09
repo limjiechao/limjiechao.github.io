@@ -3,23 +3,21 @@ body, div {
 }
 
 body {
-  height: 100vh;
   min-width: 320px;
-  padding: 20px 0;
+  padding: 40px 0;
   text-align: center;
-  font-family: "Avenir", "Helvetica", serif;
+  font-family: "Avenir", "Helvetica Neue", "Helvetica", serif;
   color: white;
-  background: #1c92d2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: #1c92d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #f2fcfe, #1c92d2); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
-  background-image: url("../images/background.jpg");
   background-attachment: fixed;
   background-position: top;
+  background-image: url("../images/background.jpg");
 }
 
 #avatar {
-  margin: 20px 0px 0px 0px;
   height: 150px;
   width: 150px;
   border-radius: 75px;
@@ -124,7 +122,7 @@ a:active {
   opacity: 0.7;
   border-radius: 30px;
   box-shadow: 4px 4px 4px #333333;
-  font-family: "Adobe Garamond Pro", "Iowan Old Style", serif;
+  font-family: "Hoefler Text", "Garamond", "Constantia", "Palatino", "Times", serif;
 }
 
 #quote-line {
@@ -172,7 +170,7 @@ a:active {
   margin: 20px 20px 0px 0px;
   font-size: 22px;
   text-align: right;
-  color:black;
+  color: black;
 }
 
 @media (max-width: 600px) {
