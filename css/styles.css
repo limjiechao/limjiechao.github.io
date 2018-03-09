@@ -1,18 +1,21 @@
+body, div {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 body {
   height: 100vh;
+  min-width: 320px;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Avenir", "Helvetica", serif;
+  color: white;
   background: #1c92d2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   background-size: cover;
   background-image: url("../images/background.jpg");
   background-attachment: fixed;
   background-position: top;
-  font-family: "Avenir", "Helvetica", serif;
-  text-align: center;
-  min-width: 320px;
-  color: white;
-  margin: 20px;
 }
 
 #avatar {
@@ -29,6 +32,7 @@ p {
   margin: 0px;
 }
 
+
 #name {
   font-size: 80px;
   font-weight: lighter;
@@ -36,6 +40,14 @@ p {
   margin-bottom: 20px;
   letter-spacing: -0.04em;
   text-shadow: 3px 3px 3px #333333;
+}
+
+.letter-spacing-1 {
+  letter-spacing: -0.01em;
+}
+
+.letter-spacing-2 {
+  letter-spacing: -0.025em;
 }
 
 #description {
@@ -66,7 +78,7 @@ li {
 .icon {
   height: 32px;
   margin-right: 10px;
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 
 a {
@@ -75,7 +87,11 @@ a {
 }
 
 a:hover {
-  /* color: aquamarine; */
+  color: white;
+}
+
+a:active {
+  color: #9FFCDF;
 }
 
 #location {
@@ -95,7 +111,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 40px 0;
+  margin: 40px 20px;
 }
 
 #quote-block {
@@ -193,7 +209,11 @@ a:hover {
   }
 
   #quote-container {
-    margin: 30px 0;
+    margin: 30px 15px;
+  }
+
+  #quote-block {
+    padding: 15px;
   }
 
   #open-quote {
@@ -214,9 +234,4 @@ a:hover {
   #citation {
     font-size: 18px;
   }
-
-  /* input {
-    font-size: 14px;
-    padding: 6px 12px 6px 12px;
-  } */
 }
