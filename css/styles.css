@@ -202,7 +202,7 @@ background: linear-gradient(to bottom, rgba(236, 233, 230, 0.8), rgba(255, 255, 
 
 h3 {
   display: inline-block;
-  margin: 0;
+  margin: 1rem 0 0 0;
 }
 
 .project {
@@ -248,6 +248,10 @@ h3 {
 .writeup-2 { grid-area: writeup-2; }
 .writeup-3 { grid-area: writeup-3; }
 .writeup-4 { grid-area: writeup-4; }
+.techstack-1 { grid-area: techstack-1; }
+.techstack-2 { grid-area: techstack-2; }
+.techstack-3 { grid-area: techstack-3; }
+.techstack-4 { grid-area: techstack-4; }
 
 .pill {
   display: inline-block;
@@ -262,7 +266,28 @@ h3 {
   background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1184px) {
+  .portfolio {
+    padding: 1rem 2rem 4rem 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, auto);
+    grid-row-gap: 0.8rem;
+    grid-column-gap: 2rem;
+    grid-template-areas:
+      "title-1 title-2"
+      "picture-1 picture-2"
+      "links-1 links-2"
+      "writeup-1 writeup-2"
+      "techstack-1 techstack-2"
+      "title-3 title-4"
+      "picture-3 picture-4"
+      "links-3 links-4"
+      "writeup-3 writeup-4"
+      "techstack-3 techstack-4";
+  } 
+}
+
+@media (max-width: 608px) {
   #avatar {
     width: 120px;
     height: 120px;
@@ -320,5 +345,34 @@ h3 {
 
   #citation {
     font-size: 18px;
+  }
+
+  .portfolio {
+    padding: 1rem 2rem 4rem 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(20, auto);
+    grid-row-gap: 0.8rem;
+    grid-column-gap: 2rem;
+    grid-template-areas:
+      "title-1"
+      "picture-1"
+      "links-1"
+      "writeup-1"
+      "techstack-1"
+      "title-2"
+      "picture-2"
+      "links-2"
+      "writeup-2"
+      "techstack-2"
+      "title-3"
+      "picture-3"
+      "links-3"
+      "writeup-3"
+      "techstack-3"
+      "title-4"
+      "picture-4"
+      "links-4"
+      "writeup-4"
+      "techstack-4";
   }
 }
