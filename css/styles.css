@@ -19,7 +19,7 @@ body {
 }
 
 .top-half {
-  margin: 40px 0 40px 0;
+  padding: 40px 0 40px 0;
 }
 
 #avatar {
@@ -291,6 +291,19 @@ h3 {
 }
 
 @media (max-width: 608px) {
+  body {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .top-half {
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url("../images/background.jpg");
+  }
   #avatar {
     width: 120px;
     height: 120px;
@@ -351,6 +364,9 @@ h3 {
   }
 
   .portfolio {
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, rgba(236, 233, 230, 0.8), rgba(255, 255, 255, 0.95));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgba(236, 233, 230, 0.8), rgba(255, 255, 255, 0.95)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 1rem 2rem 4rem 2rem;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(20, auto);
