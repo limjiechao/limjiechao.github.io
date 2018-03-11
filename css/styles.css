@@ -124,7 +124,7 @@ a:active {
   background-color: rgba(236, 233, 230, 0.64);
   background-blend-mode: overlay;
   border-radius: 30px;
-  box-shadow: 4px 4px 4px #333333;
+  box-shadow: 3px 3px 3px #333333;
   font-family: Hoefler Text, Garamond, Constantia, Palatino, Times, serif;
 }
 
@@ -238,9 +238,9 @@ h3 {
 }
 
 .links a .fas, .links a .fab {
-  background: #9D50BB;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #6441A5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 0 0.4rem;
   font-size: 1.2rem;
   line-height: 1.3rem;
@@ -365,10 +365,6 @@ h3 {
 
   #open-quote {
     font-size: 48px;
-  }
-
-  #close-quote-container {
-
   }
 
   #close-quote {
