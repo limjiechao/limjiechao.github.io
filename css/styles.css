@@ -31,7 +31,7 @@ body {
   background-size: cover;
   background-attachment: scroll;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
   background-image: url("../images/shooting-star-a.jpg");
 }
 
@@ -346,10 +346,6 @@ h3 {
 /* One-column maximum width: 608px */
 /* (3 × 32) + (2 × 256) = 608px */
 @media screen and (max-width: 608px) {
-  .top-half {
-    background-image: url("../images/shooting-star-c.jpg");
-  }
-
   #avatar {
     width: 120px;
     height: 120px;
