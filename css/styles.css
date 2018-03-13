@@ -16,7 +16,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom;
   background-image: url("../images/background.jpg");
 }
 
@@ -34,8 +34,7 @@ body {
 #name {
   font-size: 90px;
   font-weight: lighter;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
   letter-spacing: -0.04em;
   text-shadow: 3px 3px 3px #333333;
 }
@@ -184,7 +183,7 @@ a:active {
 }
 
 .portfolio-header {
-  margin: 5rem 0 1rem 0;
+  padding: 5rem 0 0 0;
   letter-spacing: 0.02em;
   text-shadow: 2px 2px 2px #222222;
 }
@@ -303,7 +302,7 @@ h3 {
       "links-3 links-4"
       "writeup-3 writeup-4"
       "techstack-3 techstack-4";
-  } 
+  }
 }
 
 /* One-column maximum width: 608px */
@@ -320,7 +319,7 @@ h3 {
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: bottom;
     background-image: url("../images/background.jpg");
   }
   #avatar {
@@ -329,6 +328,7 @@ h3 {
   }
 
   #name {
+    margin: 10px 0;
     font-size: 60px;
     text-shadow: 3px 3px 3px #333333;
   }
@@ -342,8 +342,7 @@ h3 {
   }
 
   ul {
-    padding: 0 5px;
-    margin: 20px auto;
+    margin: 20px auto 10px auto;
   }
 
   li {
@@ -364,16 +363,16 @@ h3 {
   }
 
   #open-quote {
-    font-size: 48px;
+    font-size: 44px;
   }
 
   #close-quote {
-    font-size: 48px;
+    font-size: 44px;
     line-height: 0.0;
   }
 
   #quote {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   #citation {
