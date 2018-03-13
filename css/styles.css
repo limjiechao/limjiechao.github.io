@@ -1,3 +1,7 @@
+html {
+  background: black;
+}
+
 /* Four-column Portfolio Showcase */
 /* (5 × 32) + (4 × 320) = 1440px */
 body, div {
@@ -10,9 +14,9 @@ body {
   font-family: Segoe UI, Avenir, Helvetica, -apple-system, BlinkMacSystemFont, Arial, san-serif;
   font-weight: normal;
   color: white;
-  background: #1c92d2; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #f2fcfe, #1c92d2); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #AA076B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -324,9 +328,9 @@ h3 {
   }
 
   .top-half {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #AA076B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
