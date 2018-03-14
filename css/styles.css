@@ -11,7 +11,7 @@ body, div {
 body {
   min-width: 320px;
   text-align: center;
-  font-family: Avenir, Helvetica, Segoe UI, -apple-system, BlinkMacSystemFont, Arial, san-serif;
+  font-family: Avenir, Segoe UI, Helvetica, -apple-system, BlinkMacSystemFont, Arial, san-serif;
   font-weight: normal;
   color: white;
   background: #AA076B;  /* fallback for old browsers */
