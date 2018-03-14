@@ -11,7 +11,7 @@ body, div {
 body {
   min-width: 320px;
   text-align: center;
-  font-family: Segoe UI, Avenir, Helvetica, -apple-system, BlinkMacSystemFont, Arial, san-serif;
+  font-family: Avenir, Helvetica, -apple-system, BlinkMacSystemFont, Segoe UI,  Arial, san-serif;
   font-weight: normal;
   color: white;
   background: #AA076B;  /* fallback for old browsers */
@@ -130,7 +130,7 @@ a:active {
   background-blend-mode: overlay;
   border-radius: 30px;
   box-shadow: 3px 3px 3px #333333;
-  font-family: Hoefler Text, Garamond, Constantia, Palatino, Times, serif;
+  font-family: Hoefler Text, Garamond, Palatino, Times, serif;
 }
 
 #quote-line {
