@@ -316,6 +316,10 @@ h3 {
   background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.chevron {
+  font-size: 2rem;
+}
+
 /* Two-column maximum width: 1184px */
 /* (5 × 32) + (4 × 256) = 1184px */
 @media screen and (max-width: 1184px) {
