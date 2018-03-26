@@ -144,7 +144,6 @@ a:active {
   padding-top: 6px;
   padding-left: 8px;
   color: black;
-  margin-right: 6px;
   font-size: 60px;
   line-height: 1.0;
   vertical-align: bottom;
@@ -383,7 +382,7 @@ h3 {
   }
 
   #quote-container {
-    margin: 30px 15px;
+    margin: 30px 20px;
   }
 
   #quote-block {
