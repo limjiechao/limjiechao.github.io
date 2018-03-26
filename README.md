@@ -1,10 +1,12 @@
-# [jiechaolim.com](https://jiechaolim.com)
+# Project Portfolio
 
-Project Portfolio
+<p align="center"><img src="./documentation/header.png"/></p>
+
+<h3 align="center">[jiechaolim.com](https://jiechaolim.com)</h3>
 
 ## Features
 - Displays correctly and beautifully on *all* screen sizes
-- Renders the most optimal layout on for *every* screen sizes
+- Serves the most optimal layout for based on design breakpoints
 - *No* CSS framework
 - *No* JavaScript
 - CSS grid and media queries for *responsive* layouts
@@ -13,7 +15,7 @@ Project Portfolio
   - 1-column × 4-row grid for <`608px` width
 - CSS flexbox
   - Responsive placement of quote marks enclosing the headline quotation
-  - Quote marks will never touch the quotation or be awkwardly positioned
+  - Quote marks will *not* touch the quotation or be awkwardly positioned
 - CSS gradient
   - Portfolio backdrop,
   - Badges for language, framework, database used
@@ -23,7 +25,11 @@ Project Portfolio
 
 ### Headline Quotation
 
+#### Screenshot
+
 <p align="center"><img src="./documentation/quotation.png"/></p>
+
+#### CSS
 
 ```css
 #quote-container {
@@ -92,7 +98,11 @@ Project Portfolio
 
 ### 4-column × 1-row
 
+#### Screenshot
+
 <p align="center"><img src="./documentation/4-by-1.png"/></p>
+
+#### Screenshot
 
 ```css
 .portfolio {
@@ -118,7 +128,11 @@ Project Portfolio
 
 ### 2-column × 2-row
 
+#### Screenshot
+
 <p align="center"><img src="./documentation/2-by-2.png"/></p>
+
+#### CSS
 
 ```css
 @media screen and (max-width: 1184px) {
@@ -149,7 +163,12 @@ Project Portfolio
 
 ### 1-column × 4-row
 
+
+#### Screenshot
+
 <p align="center"><img src="./documentation/1-by-4.png"/></p>
+
+#### CSS
 
 ```css
 @media screen and (max-width: 608px) {
