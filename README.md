@@ -1,8 +1,8 @@
 # Project Portfolio
 
-<p align="center"><img src="./documentation/header.png"/></p>
+<h3 align="center"><a href="https://jiechaolim.com">https://jiechaolim.com</a></h3>
 
-<h3 align="center">[jiechaolim.com](https://jiechaolim.com)</h3>
+<p align="center"><img src="./documentation/header.png"/></p>
 
 ## Features
 - Displays correctly and beautifully on *all* screen sizes
