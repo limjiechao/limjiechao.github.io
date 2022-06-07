@@ -6,7 +6,7 @@
 
 ## Features
 - Displays correctly and beautifully on *all* screen sizes
-- Serves the most optimal layout for based on design breakpoints
+- Serves the most optimal layout according to design breakpoints
 - *No* CSS framework
 - *No* JavaScript
 - CSS grid and media queries for *responsive* layouts
