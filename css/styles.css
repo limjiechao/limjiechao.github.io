@@ -14,9 +14,9 @@ body {
   font-family: Avenir, Segoe UI, Helvetica, -apple-system, BlinkMacSystemFont, Arial, san-serif;
   font-weight: normal;
   color: white;
-  background: #AA076B; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #61045F, #AA076B); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #8276e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #1c3288, #8276e6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #1c3288, #8276e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -25,9 +25,9 @@ body {
 
 .top-half {
   padding: 2.5rem 0 1.25rem 0;
-  background: #AA076B; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #61045F, #AA076B); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #8276e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #1c3288, #8276e6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #1c3288, #8276e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-image: url("../images/lighthouse-b.jpg");
   background-size: cover;
   background-attachment: scroll;
