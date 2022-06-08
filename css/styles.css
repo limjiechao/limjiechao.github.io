@@ -390,7 +390,7 @@ h3 {
 @media screen and (max-width: 1184px) {
   .portfolio {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(11, auto);
+    grid-template-rows: repeat(12, auto);
     grid-row-gap: 0.8rem;
     grid-column-gap: 2rem;
     grid-template-areas:
@@ -473,7 +473,7 @@ h3 {
 
   .portfolio {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(21, auto);
+    grid-template-rows: repeat(22, auto);
     grid-row-gap: 0.7rem;
     grid-column-gap: 2rem;
     grid-template-areas:
