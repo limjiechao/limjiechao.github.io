@@ -32,65 +32,36 @@
 #### CSS
 
 ```css
-#quote-container {
+.carousel-deck {
   display: flex;
-  flex-direction: column;
-  padding: 20px;
-  background-color: rgba(236, 233, 230, 0.64);
-  background-blend-mode: overlay;
-  border-radius: 30px;
-  box-shadow: 3px 3px 3px #333333;
-  font-family: Hoefler Text, Garamond, Palatino, Times, serif;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
 }
 
-#quote-block {
+/* Hides scrollbar in firefox */
+.carousel-deck {
+  scrollbar-width: none;
+}
+
+/* Hides scrollbar in webkit and blink powered browsers */
+.carousel-deck::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-card {
   display: flex;
-  flex-direction: column;
-}
-
-#quote-line {
-  display: flex;
-  flex-direction: row;
-  align-items: bottom;
-}
-
-#open-quote {
-  display: inline-block;
-  padding-top: 6px;
-  padding-left: 8px;
-  color: black;
-  margin-right: 6px;
-  font-size: 60px;
-  line-height: 1.0;
-  vertical-align: bottom;
-}
-
-.nbsp {
-  letter-spacing: 0.15rem;
-}
-
-#close-quote {
-  display: inline-block;
-  padding-right: 8px;
-  text-align: right;
-  color: black;
-  font-style: normal;
-  font-size: 60px;
-  line-height: 0;
-}
-
-#quote {
-  display: inline-block;
-  max-width: 400px;
-  vertical-align: middle;
-  margin: 10px 10px 4px 10px;
-  padding: 2px;
-  color: black;
-  line-height: 1.3;
-  text-align: justify-all;
-  font-size: 30px;
-  font-style: italic;
-  letter-spacing: 0.02em;
+  justify-content: center;
+  min-width: 100%;
+  margin: 3.125rem;
+  margin: 1.5rem;
+  position: relative;
+  scroll-snap-align: start;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: transform .5s;
+  outline: 0;
 }
 ```
 
@@ -137,7 +108,7 @@
 ```css
 @media screen and (max-width: 1184px) {
   .top-half {
-    background-image: url("../images/shooting-star-b.jpg");
+    background-image: url("../images/lighthouse-b.jpg");
   }
 
   .portfolio {
