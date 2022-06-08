@@ -153,8 +153,7 @@ a {
   display: flex;
   justify-content: center;
   min-width: 100%;
-  margin: 3.125rem;
-  margin: 1.5rem;
+  margin: 3.125rem 1.5rem;
   position: relative;
   scroll-snap-align: start;
   transform: scale(1);
@@ -179,7 +178,6 @@ a {
 .quote-line {
   display: flex;
   flex-direction: row;
-  align-items: bottom;
 }
 
 .open-quote {
