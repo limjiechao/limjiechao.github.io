@@ -254,7 +254,7 @@ a {
   padding: 1rem 2rem 2rem 2rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(7, auto);
   grid-row-gap: 0.8rem;
   grid-column-gap: 2rem;
   grid-template-areas:
@@ -263,6 +263,7 @@ a {
     "links-1 links-2 links-3 links-4"
     "writeup-1 writeup-2 writeup-3 writeup-4"
     "techstack-1 techstack-2 techstack-3 techstack-4"
+    "professional-portfolio professional-portfolio professional-portfolio professional-portfolio"
     "photo-credit photo-credit photo-credit photo-credit";
 }
 
@@ -309,6 +310,10 @@ h3 {
 
 .techstack {
   text-align: left;
+}
+
+.professional-portfolio {
+  margin-top: 2rem;
 }
 
 .photo-credit p {
@@ -359,6 +364,8 @@ h3 {
 
 .techstack-4 { grid-area: techstack-4; }
 
+.professional-portfolio { grid-area: professional-portfolio; }
+
 .photo-credit { grid-area: photo-credit; }
 
 .pill {
@@ -383,7 +390,7 @@ h3 {
 @media screen and (max-width: 1184px) {
   .portfolio {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(10, auto);
+    grid-template-rows: repeat(11, auto);
     grid-row-gap: 0.8rem;
     grid-column-gap: 2rem;
     grid-template-areas:
@@ -397,6 +404,7 @@ h3 {
       "links-3 links-4"
       "writeup-3 writeup-4"
       "techstack-3 techstack-4"
+      "professional-portfolio professional-portfolio"
       "photo-credit photo-credit";
   }
 }
@@ -465,7 +473,7 @@ h3 {
 
   .portfolio {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(20, auto);
+    grid-template-rows: repeat(21, auto);
     grid-row-gap: 0.7rem;
     grid-column-gap: 2rem;
     grid-template-areas:
@@ -489,6 +497,7 @@ h3 {
       "links-4"
       "writeup-4"
       "techstack-4"
+      "professional-portfolio"
       "photo-credit";
   }
 }
